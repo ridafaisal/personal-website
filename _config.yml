@@ -117,14 +117,14 @@ content:
   - title: Experience
     layout: list
     content:
-      - layout: right
+      - layout: left
         title: LUMS
         sub_title: "Head Teaching Assistant — CS 100: Computational Problem Solving"
         caption: September 2024 – December 2024
         description: |
           One of two Head TAs for a large introductory CS course; supervised a team of 14 TAs. Designed lab assignments and conducted tutorials for students.
 
-      - layout: right
+      - layout: left
         title: Science Communication Cell, LUMS
         sub_title: Carl Sagan Science Communication Intern
         caption: September 2023 – December 2023
@@ -132,7 +132,7 @@ content:
           Selected as 1 of 5 interns from 60+ applicants. Led 3 paid projects spanning animation, science journalism, design, and video production.
           Published work in *The Particle*, LUMS's science communication journal. Created content using Adobe Suite and Canva.
 
-      - layout: right
+      - layout: left
         title: Freelance Artist & Graphic Designer
         sub_title: Self-employed
         caption: 2017 – Present
@@ -144,7 +144,7 @@ content:
   - title: Education
     layout: list
     content:
-      - layout: top-right
+      - layout: top
         title: Lahore University of Management Sciences (LUMS)
         sub_title: BS Computer Science
         caption: Expected 2026
