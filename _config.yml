@@ -1,123 +1,176 @@
 # Site
-repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
-# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
+repository: ridafaisal/personal-website
 
 # Content configuration version
 version: 2
 
 # Personal info
-name: Your Name
-title: Your job title
-email: Your email (optional)
-# email_title: Email (Email title override)
-phone: Your phone number (optional)
-# phone_title: Phone (Phone title override)
-website: Your website (eg. https://google.com)(optional)
-# website_title: Web (Website title override)
+name: Rida Faisal
+title: CS Student @ LUMS | Systems · HCI · Creative Technology
+email: ridafaisal.r@gmail.com
+phone: "+92 3116677098"
+website: https://drive.google.com/file/d/1WdKDnm-fxeUUejiX0EVIiFIUZgdjl0fC/view
+website_title: Portfolio
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-twitter_username: jekyllrb
-github_username:  jekyll
-stackoverflow_username: "00000001"
-dribbble_username: jekyll
-facebook_username: jekyll
-flickr_username: jekyll
-instagram_username: jekyll
-linkedin_username: jekyll
-xing_username: jekyll
-pinterest_username: jekyll
-youtube_username: jekyll
-orcid_username: 0000-0000-0000-0000
-googlescholar_username: D847cGsAAAAJ
+github_username: ridafaisal
+linkedin_username: ridavinci
 
 # Additional icon links
 additional_links:
-- title: Link name
-  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-  url: Link url (eg. https://google.com)
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-#   url: Link url (eg. https://google.com)
-
-# Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
+- title: Portfolio
+  icon: fas fa-palette
+  url: https://drive.google.com/file/d/1WdKDnm-fxeUUejiX0EVIiFIUZgdjl0fC/view
 
 # About Section
-# about_title: About Me (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. images/profile.jpg)
-about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
-
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images ![alt text](/images/landscape-trees.jpg "Trees")
+about_content: |
+  CS student at LUMS interested in systems, human-centered design, and creative technology.
+  I've built everything from distributed systems to escape room games and social impact apps,
+  and I'm currently exploring computer graphics and generative media.
+  I'm also a self-taught artist with 7+ years of commissioned work, and I bring that visual sensibility into everything I build.
 
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Projects
+    layout: list
     content:
       - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
-        additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        border: weak
+        title: PakPlug — Peer-to-Peer EV Charging Platform
+        caption: September 2024 – Present
         quote: >
-          Short overview of the project (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
+          Senior Project · Flutter · Node.js · Express · MongoDB · Redis · Firebase · Socket.IO · Google Maps SDK
+        description: |
+          Built a two-sided marketplace connecting EV drivers with private charger hosts, addressing Pakistan's shortage of under 100 public EV chargers nationwide.
+          - Implemented end-to-end QR-secured charging sessions, real-time slot booking, and dynamic pricing using optimization models from published IEEE research
+          - Architected a layered backend with Node.js/Express REST API, Redis job queues, Socket.IO real-time chat, and Firebase push notifications
+          - Covers 28 use cases across 3 roles (Driver, Host, Admin); currently piloting in Lahore with 70 test users and 20–30 chargers
+          - **Incubated at NIC Lahore**
+
+      - layout: left
+        border: weak
+        title: Dori — ICT4D App for Women Micro-Entrepreneurs
+        link: https://www.figma.com/design/B45KmIQHW0arryN1toxm8x/Design-Tech-Project-Group-6?node-id=6-2&t=xzo8U714gPj6KqVM-1
+        link_text: View Figma Prototype
+        quote: >
+          Figma · Atlas.ti · Qualitative Research
+        description: |
+          Conducted 15 semi-structured interviews with women-owned home businesses across Pakistan, generating 989 open codes analyzed via thematic analysis in Atlas.ti.
+          - Identified entrepreneurial skill gap as the root barrier to business success across gendered, logistical, and digital literacy themes
+          - Designed Dori, a culturally-contextualized mobile app prototype featuring AI-powered voice practice, cohort-based mentorship, and a community forum for low-literacy users in Urdu/Roman Urdu
+
+      - layout: left
+        border: weak
+        title: LUMS SSE Escape Room — Psychological Horror Game
+        link: https://github.com/ridafaisal/CG-FALL25-Group1
+        link_text: github.com/ridafaisal/CG-FALL25-Group1
+        additional_links:
+          - title: ridafaisal/CG-FALL25-Group1
+            icon: fab fa-github
+            url: https://github.com/ridafaisal/CG-FALL25-Group1
+        quote: >
+          Unity · C# · Blender
+        description: |
+          Designed and built a first-person psychological horror escape room set in LUMS's CS lounge, featuring low-poly environments, NPC dialogue systems, and multi-phase puzzle progression.
+          - Modelled and textured 3D environments in Blender; implemented player interaction, inventory, and clue-discovery mechanics in Unity
+          - Embedded CS-specific Easter eggs and meta-puzzles (Network Security notes, algorithmic clues) for a LUMS-native narrative experience
+
+      - layout: left
+        border: weak
+        title: FleetCore — Logistics Management System
+        link: https://github.com/vmelonn/FleetCore
+        link_text: github.com/vmelonn/FleetCore
+        additional_links:
+          - title: vmelonn/FleetCore
+            icon: fab fa-github
+            url: https://github.com/vmelonn/FleetCore
+        quote: >
+          C# · .NET 9 · SQL Server · Entity Framework Core · Docker · Kubernetes
+        description: |
+          Built a location-aware fleet operations platform with dual business logic modes: LINQ-based manual planning and stored-procedure-based auto-dispatch.
+          - Implemented 5-role RBAC system, soft-delete triggers, audit logging, and a full trip lifecycle (Scheduled → InProgress → Completed)
+          - Deployed with Docker and Kubernetes; cloud-compatible with Azure SQL Database
+
+      - layout: left
+        border: weak
+        title: Fault-Tolerant Key-Value Server
+        caption: September 2024 – December 2024
+        quote: >
+          Go · Distributed Systems (CS-582, LUMS)
+        description: |
+          Built a distributed key-value store using a ground-up implementation of the Raft consensus algorithm for leader election, log replication, and fault tolerance.
+
+      - layout: left
+        border: weak
+        title: Problematic Internet Use Severity Prediction
+        link: https://medium.com/@s.muhammadaqdasrizvi/problematic-internet-use-3fba787f64e5
+        link_text: Read on Medium
+        quote: >
+          Python · pandas · scikit-learn · seaborn · DoWhy · matplotlib · Kaggle (Child Mind Institute)
+        description: |
+          Built an end-to-end ML pipeline to predict internet use severity in children from physical activity and fitness data (3,960 participants, 82 features).
+          - Performed EDA, causal inference using DoWhy DAGs, and trained a Random Forest classifier achieving 69% accuracy on balanced data after addressing class imbalance via undersampling
+          - Reduced feature set from 47 to 26 using Mean Decrease in Impurity without significant accuracy loss; published full analysis on Medium
+
   - title: Experience
     layout: list
     content:
       - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
-        quote: >
-          Short description of the company (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of role
+        title: LUMS
+        sub_title: Head Teaching Assistant — CS 100: Computational Problem Solving
+        caption: September 2024 – December 2024
+        description: |
+          One of two Head TAs for a large introductory CS course; supervised a team of 14 TAs. Designed lab assignments and conducted tutorials for students.
+
+      - layout: right
+        title: Science Communication Cell, LUMS
+        sub_title: Carl Sagan Science Communication Intern
+        caption: September 2023 – December 2023
+        description: |
+          Selected as 1 of 5 interns from 60+ applicants. Led 3 paid projects spanning animation, science journalism, design, and video production.
+          Published work in *The Particle*, LUMS's science communication journal. Created content using Adobe Suite and Canva.
+
+      - layout: right
+        title: Freelance Artist & Graphic Designer
+        sub_title: Self-employed
+        caption: 2017 – Present
+        description: |
+          7+ years of commissioned artwork including portraits, murals, and animation. Designed branding for local businesses; created album covers and clothing brand visuals.
+          - Exhibited at Youth Design Forum (2021, 2023)
+          - Published work on gender issues in *Teen Ink*
+
   - title: Education
     layout: list
     content:
       - layout: top-right
-        title: Institution name
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)
-        quote: >
-          Short institution or course description (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of qualification
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+        title: Lahore University of Management Sciences (LUMS)
+        sub_title: BS Computer Science
+        caption: Expected 2026
+        description: |
+          **Relevant Coursework:** Introduction to Artificial Intelligence, Operating Systems, Distributed Systems, Data Science, Network Security, Computer Graphics, Theory of Automata, Designing Technology for Social Impact, Cognition, Social Psychology, Introduction to Psychology and Human Behaviour
 
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+          **Certifications:** Quantitative and Qualitative Research — edX, National University of Singapore (NUS)
+
+  - title: Skills
+    layout: text
+    content: |
+      **Languages:** Python, C/C++, C#, Go, Dart, JavaScript
+
+      **Frameworks & Libraries:** Flutter, Node.js, Express, Entity Framework Core, scikit-learn, pandas, NumPy, matplotlib, seaborn, DoWhy
+
+      **Databases:** MongoDB, Redis, SQL Server, Firebase
+
+      **Tools & Platforms:** Unity, Blender, Figma, TouchDesigner, Docker, Kubernetes, Git, Socket.IO, Atlas.ti
+
+      **Creative Tools:** Procreate, Adobe Illustrator, Adobe Premiere Pro, Autodesk Sketchbook, Canva
 
 # Footer
-footer_show_references: true
-# references_title: References on request (Override references text)
+footer_show_references: false
 
 # Build settings
-# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
-# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
+remote_theme: sproogen/modern-resume-theme
 
 sass:
   sass_dir: _sass
@@ -126,7 +179,7 @@ sass:
 plugins:
  - jekyll-seo-tag
 
-exclude : [
+exclude: [
   "Gemfile",
   "Gemfile.lock",
   "node_modules",
@@ -137,4 +190,5 @@ exclude : [
   "lib/",
   "scripts/",
   "docker-compose.yml",
+  "rida_faisal_resume.md",
   ]
