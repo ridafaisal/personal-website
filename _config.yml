@@ -43,7 +43,7 @@ content:
         quote: >
           Senior Project · Flutter · Node.js · Express · MongoDB · Redis · Firebase · Socket.IO · Google Maps SDK
         description: |
-          Built a two-sided marketplace connecting EV drivers with private charger hosts, addressing Pakistan's shortage of under 100 public EV chargers nationwide.
+          - Built a two-sided marketplace connecting EV drivers with private charger hosts, addressing Pakistan's shortage of under 100 public EV chargers nationwide.
           - Implemented end-to-end QR-secured charging sessions, real-time slot booking, and dynamic pricing using optimization models from published IEEE research
           - Architected a layered backend with Node.js/Express REST API, Redis job queues, Socket.IO real-time chat, and Firebase push notifications
           - Covers 28 use cases across 3 roles (Driver, Host, Admin); currently piloting in Lahore with 70 test users and 20–30 chargers
@@ -57,7 +57,7 @@ content:
         quote: >
           Figma · Atlas.ti · Qualitative Research
         description: |
-          Conducted 15 semi-structured interviews with women-owned home businesses across Pakistan, generating 989 open codes analyzed via thematic analysis in Atlas.ti.
+          - Conducted 15 semi-structured interviews with women-owned home businesses across Pakistan, generating 989 open codes analyzed via thematic analysis in Atlas.ti.
           - Identified entrepreneurial skill gap as the root barrier to business success across gendered, logistical, and digital literacy themes
           - Designed Dori, a culturally-contextualized mobile app prototype featuring AI-powered voice practice, cohort-based mentorship, and a community forum for low-literacy users in Urdu/Roman Urdu
 
@@ -73,7 +73,7 @@ content:
         quote: >
           Unity · C# · Blender
         description: |
-          Designed and built a first-person psychological horror escape room set in LUMS's CS lounge, featuring low-poly environments, NPC dialogue systems, and multi-phase puzzle progression.
+          - Designed and built a first-person psychological horror escape room set in LUMS's CS lounge, featuring low-poly environments, NPC dialogue systems, and multi-phase puzzle progression.
           - Modelled and textured 3D environments in Blender; implemented player interaction, inventory, and clue-discovery mechanics in Unity
           - Embedded CS-specific Easter eggs and meta-puzzles (Network Security notes, algorithmic clues) for a LUMS-native narrative experience
 
@@ -89,7 +89,7 @@ content:
         quote: >
           C# · .NET 9 · SQL Server · Entity Framework Core · Docker · Kubernetes
         description: |
-          Built a location-aware fleet operations platform with dual business logic modes: LINQ-based manual planning and stored-procedure-based auto-dispatch.
+          - Built a location-aware fleet operations platform with dual business logic modes: LINQ-based manual planning and stored-procedure-based auto-dispatch.
           - Implemented 5-role RBAC system, soft-delete triggers, audit logging, and a full trip lifecycle (Scheduled → InProgress → Completed)
           - Deployed with Docker and Kubernetes; cloud-compatible with Azure SQL Database
 
@@ -110,7 +110,7 @@ content:
         quote: >
           Python · pandas · scikit-learn · seaborn · DoWhy · matplotlib · Kaggle (Child Mind Institute)
         description: |
-          Built an end-to-end ML pipeline to predict internet use severity in children from physical activity and fitness data (3,960 participants, 82 features).
+          - Built an end-to-end ML pipeline to predict internet use severity in children from physical activity and fitness data (3,960 participants, 82 features).
           - Performed EDA, causal inference using DoWhy DAGs, and trained a Random Forest classifier achieving 69% accuracy on balanced data after addressing class imbalance via undersampling
           - Reduced feature set from 47 to 26 using Mean Decrease in Impurity without significant accuracy loss; published full analysis on Medium
 
@@ -137,7 +137,7 @@ content:
         sub_title: Self-employed
         caption: 2017 – Present
         description: |
-          7+ years of commissioned artwork including portraits, murals, and animation. Designed branding for local businesses; created album covers and clothing brand visuals.
+          - 7+ years of commissioned artwork including portraits, murals, and animation. Designed branding for local businesses; created album covers and clothing brand visuals.
           - Exhibited at Youth Design Forum (2021, 2023)
           - Published work on gender issues in *Teen Ink*
 
